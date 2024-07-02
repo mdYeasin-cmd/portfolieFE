@@ -1,7 +1,11 @@
+import BannerSection from "@/components/BannerSection/BannerSection";
+import NavbarSection from "@/components/NavbarSection/NavbarSection";
+
 const HomePage = () => {
   return (
     <main>
-      <h1>Home Page</h1>
+      <NavbarSection />
+      <BannerSection />
     </main>
   );
 };

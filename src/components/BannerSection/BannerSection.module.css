@@ -1,0 +1,25 @@
+.my_image {
+  width: 200px;
+  height: 200px;
+  /* border-radius: 50%; */
+  border-radius: 10px;
+}
+
+.about_me {
+  width: 45%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.my_info {
+  margin-left: 50px;
+}
+
+.my_name {
+  font-size: 60px;
+  margin-left: -3px;
+}
+
+.my_designation {
+  font-size: 25px;
+}
