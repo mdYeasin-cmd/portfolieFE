@@ -1,8 +1,8 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import { COLORS } from "@/constants";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["roboto"] });
 
 export const metadata = {
   title: "Md Yeasin - Fullstack Developer",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[${COLORS.BACKGROUND}] text-white`}>{children}</body>
+      <body className={`bg-[#0E1D2F] text-white`}>{children}</body>
     </html>
   );
 }

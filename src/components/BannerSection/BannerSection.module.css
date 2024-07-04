@@ -1,14 +1,19 @@
 .my_image {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   /* border-radius: 50%; */
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-radius: 50%;
+  border: 6px solid #6dc17b;
 }
 
 .about_me {
-  width: 45%;
-  margin: 0 auto;
-  text-align: justify;
+  /* width: 45%; */
+  /* margin: 0 auto;
+  text-align: justify; */
+  text-align: left;
+  margin: 16px 0;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .my_info {
@@ -17,9 +22,32 @@
 
 .my_name {
   font-size: 60px;
-  margin-left: -3px;
+  position: relative;
 }
 
-.my_designation {
+.my_name::after {
+  content: "";
+  display: block;
+  width: 37%;
+  height: 3px;
+  background-color: #6dc17b;
+  margin: 20px auto;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.designation {
   font-size: 25px;
+  /* color: #6dc17b; */
+}
+
+.social_icon {
+  margin-right: 20px;
+  width: 22px;
+  height: 22px;
+}
+
+.resume_btn {
+  margin-top: 20px;
 }

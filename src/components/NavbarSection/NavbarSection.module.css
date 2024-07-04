@@ -1,0 +1,28 @@
+.nav_item {
+  /* display: flex; */
+  /* border: 1px solid red; */
+  margin-right: 35px;
+}
+
+.nav_item:last-child {
+  margin-right: 0;
+}
+
+.nav_item:hover span {
+  color: #6dc17b;
+  /* font-size: 22px; */
+}
+
+.nav_item span {
+  font-size: 22px;
+}
+
+.nav_item svg {
+  margin-right: 8px;
+  width: 22px;
+  height: 22px;
+}
+
+.nav_item:hover svg {
+  color: #6dc17b;
+}
