@@ -1,4 +1,5 @@
 import BannerSection from "@/components/BannerSection/BannerSection";
+import ExperienceSection from "@/components/ExperienceSection/ExperienceSection";
 import NavbarSection from "@/components/NavbarSection/NavbarSection";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <main>
       <NavbarSection />
       <BannerSection />
+      <ExperienceSection />
     </main>
   );
 };
