@@ -1,0 +1,38 @@
+.project_card {
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(22, 32, 51, 0.05);
+  text-align: center;
+}
+
+.project_card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.project_description {
+  height: 100px;
+  text-align: justify;
+}
+
+.card_skills {
+  /* border: 1px solid red; */
+  padding: 30px 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 200px;
+  /* overflow: hidden; */
+}
+
+.card_action_btn {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute;
+  bottom: 0; */
+  /* left: 0; */
+  /* position: relative;
+  bottom: 0; */
+}
